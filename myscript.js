@@ -8,6 +8,10 @@ var imageCaptions = [
 	"3This is a bill - why is it even here"
 ]; 
 
+function setup() {
+	document.getElementById('caption').innerHTML=imageCaptions[0];
+}
+
 function clickNext() {
 	if (imageNumber!=totalImageCount) {
 		imageNumber = imageNumber +1;
