@@ -106,9 +106,10 @@ body{
 
 
 .timetobuy{
-float: center;
+
 position: relative;
-width: 1300px;
+text-align: center;
+clear:both;
 	margin-top:2%;
 	margin-left: auto ;
 	margin-right: auto;
