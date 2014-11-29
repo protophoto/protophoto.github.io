@@ -383,7 +383,6 @@ margin-top:-2%;
     -webkit-animation-delay: 30s; 
 	-ms-animation-delay: 30s; 
 	animation-delay: 30s; 
-	
 }
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
