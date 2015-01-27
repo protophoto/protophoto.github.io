@@ -156,7 +156,7 @@ body, html {
 .searchButton {
     height: 44px;
     margin: 0;
-    width: 67px;
+    width: 345px;
 }
 
 /* search input */
@@ -184,7 +184,7 @@ body, html {
     height: 44px;
     margin: 0;
     text-indent: -9999px;
-    width: 67px;
+    width: 345px	;
 }
 
 .trafficLight {
