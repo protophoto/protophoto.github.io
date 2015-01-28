@@ -47,13 +47,13 @@ body{
 	width:22%;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 751px) {
 	.mainimage{
 		width:100%;
 	}
 }
 
-@media screen and (max-width: 1100px) and (min-width: 570px) {
+@media screen and (max-width: 1100px) and (min-width: 750px) {
 	.mainimage{
 		width:50%;
 	}
@@ -116,15 +116,15 @@ clear:both;
 	margin-bottom:2%;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 751px) {
 	.timetobuy{
-		width: 80%;
-			margin-left: 10% ;
-	margin-right: 10%;
+		width: 100%;
+			margin-left: auto ;
+	margin-right: auto;
 	}
 }
 
-@media screen and (min-width: 570px) and (max-width:1100px) {
+@media screen and (min-width: 750px) and (max-width:1100px) {
 	.timetobuy{
 		width: 310px;
 			margin-left: auto ;
@@ -140,7 +140,7 @@ clear:both;
 	width: 40%;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 751px) {
 	.leftpoints{
 		margin-right: 3%;
 		width:100%;
@@ -196,7 +196,7 @@ clear:both;
 	margin-bottom:2%;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 751px) {
 	.rightpoints{
 		margin-left: 3%;
 	margin-right: 3%;
@@ -278,15 +278,15 @@ text-align: center;
 	text-shadow:0px -1px 0px #5b6178;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 751px) {
 	.myButton{
 		width: 80%;
-			margin-left: 10% ;
-	margin-right: 10%;
+			margin-left: auto ;
+	margin-right: auto;
 	}
 }
 
-@media screen and (min-width: 570px) and (max-width: 1100px) {
+@media screen and (min-width: 750px) and (max-width: 1100px) {
 	.myButton{
 		width: 300px;
 
@@ -314,20 +314,21 @@ margin-left:15%;
 margin-top:-2%;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 751px) {
 	.positionreviews{
 		height:120px;
+		margin-left:auto;
 	}
 }
 
-@media screen and (min-width: 570px) and (max-width: 810px) {
+@media screen and (min-width: 750px) and (max-width: 810px) {
 	.positionreviews{
 		height:100px;
 
 	}
 }
 
-@media screen and (min-width: 810px) and (max-width: 1100px) {
+@media screen and (min-width: 750px) and (max-width: 1100px) {
 	.positionreviews{
 		height:70px;
 
@@ -344,6 +345,8 @@ margin-top:-2%;
 	font-size: 1.2em;
 	color: #FFC400;
 }
+
+
 
 .rw-words-1 span{
 	position: absolute;
@@ -384,6 +387,16 @@ margin-top:-2%;
 	-ms-animation-delay: 30s; 
 	animation-delay: 30s; 
 }
+
+@media screen and (max-width: 751px){
+	.rw-words{
+		font-size: 1em;
+	}
+	.rw-words-1 span{
+		width:80%;
+	}
+}
+
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
     2% { opacity: 0; -webkit-transform: translateY(-30px); }
