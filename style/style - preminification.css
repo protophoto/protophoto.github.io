@@ -281,6 +281,7 @@ text-align: center;
 @media screen and (max-width: 751px) {
 	.myButton{
 		width: 80%;
+		font-size:1em;
 			margin-left: auto ;
 	margin-right: auto;
 	}
