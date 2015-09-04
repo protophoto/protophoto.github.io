@@ -6,6 +6,10 @@ body{
 	background-color: rgba(22,60,73,10);
 	font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
 }
+
+a {text-decoration:none; font-size: 2em; color:#1e90ff; font-weight:bold;font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;}      /* unvisited link */
+a:hover {color:#fff;}  /* mouse over link */
+
 .bg {
     position: fixed;
     top: 0;
