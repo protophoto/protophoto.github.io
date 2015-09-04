@@ -7,7 +7,7 @@ body{
 	font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;
 }
 
-a {text-decoration:none; font-size: 2em; color:#1e90ff; font-weight:bold;font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;}      /* unvisited link */
+a {text-decoration:none; font-size: 1em; color:#1e90ff; font-weight:bold;font-family: "Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,sans-serif;}      /* unvisited link */
 a:hover {color:#fff;}  /* mouse over link */
 
 .bg {
