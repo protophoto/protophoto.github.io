@@ -133,12 +133,6 @@ img {
 	width: 100%;
 }
 
-@media screen and (max-height: 720px) {
-	.lightboxfluff {
-		display:none;
-	}
-}
-
 @media screen and (min-width: 1300px) {
 .lowerimage{
 	display:none;
