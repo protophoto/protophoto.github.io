@@ -16,7 +16,7 @@ document.getElementById('fade').style.opacity='0';
 document.getElementById('fade').style.display='none';
 }
 
-function clickedColor()
+function clickedtobuy()
 {
 ga('send', 'event', 'clickedv2', 'click');
 }
